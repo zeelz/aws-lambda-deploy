@@ -24,5 +24,5 @@ jobs:
                 function-name: randomizer
                 code-artifacts-dir: .
                 handler: app.handler
-                runtime: python3
-                role: arn:aws:iam::553917154144:role/SimpleSamFunction-SimpleFunctionRole-lHDUSXdotFV0
+                runtime: python3.10
+                role: ${{ secrets.LAMBDA_ROLE }}
