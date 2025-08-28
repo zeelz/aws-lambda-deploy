@@ -25,4 +25,4 @@ jobs:
                 code-artifacts-dir: .
                 handler: app.handler
                 runtime: python3
-                # Add any additional inputs this action supports
+                role: arn:aws:iam::553917154144:role/SimpleSamFunction-SimpleFunctionRole-lHDUSXdotFV0
